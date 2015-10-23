@@ -1,7 +1,7 @@
 ### Just compares two variables dynamically (dynamic if statement)
 
-##how to use:
+####how to use:
 
-`php
+```php
 dynamicCondition(2, '>', 1) \\return true
-`
+```
