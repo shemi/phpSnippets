@@ -20,7 +20,7 @@ function createRandomId($string, $loops = 10)
  * test if the id is unique
  *
  * @param int $times
- * @return array
+ * @return string
  */
 function testIfIdsIsUnique($times = 22)
 {
