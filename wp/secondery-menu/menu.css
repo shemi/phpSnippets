@@ -1,0 +1,13 @@
+.widget ul.menu li ul {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.widget ul.menu li.open-li > ul {
+    max-height: 1500px;
+    padding: 15px 0;
+}
